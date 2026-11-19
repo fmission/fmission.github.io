@@ -1,110 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Francis Mission</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:0;
-            background:#f5f5f5;
-        }
-
-        .hero{
-            background:#0f172a;
-            color:white;
-            text-align:center;
-            padding:80px 20px;
-        }
-
-        .section{
-            max-width:1000px;
-            margin:auto;
-            padding:40px 20px;
-        }
-
-        .card{
-            background:white;
-            padding:20px;
-            margin:15px 0;
-            border-radius:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.1);
-        }
-
-        h2{
-            color:#0f172a;
-        }
-
-        footer{
-            background:#0f172a;
-            color:white;
-            text-align:center;
-            padding:20px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Mission | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="hero">
+<header>
+    <nav>
+        <div class="logo">Francis Mission</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <img src="profile.jpg" alt="Francis Mission">
+
     <h1>Francis Mission</h1>
-    <h3>Cybersecurity Specialist | IT Professional</h3>
-    <p>Master of Cybersecurity | Technology Consultant</p>
-</div>
 
-<div class="section">
+    <h2>Cybersecurity Specialist | IT Professional</h2>
 
+    <p>
+        Helping organizations improve security, efficiency,
+        and digital transformation through technology.
+    </p>
+
+    <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="Francis_Mission_CV.pdf" class="btn" target="_blank">
+            Download CV
+        </a>
+    </div>
+</section>
+
+<section id="about">
     <h2>About Me</h2>
 
-    <div class="card">
+    <p>
         I am an Information Technology professional from Papua New Guinea
-        holding a Master's degree in Cybersecurity.
-        My interests include cybersecurity, ICT infrastructure,
-        systems administration, asset management and digital transformation.
+        with a Master's Degree in Cybersecurity and experience supporting
+        academic and enterprise ICT environments.
+    </p>
+
+    <p>
+        My expertise includes cybersecurity, asset management,
+        network administration, systems support, digital transformation,
+        and Microsoft technologies.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Cybersecurity</h3>
+            <ul>
+                <li>Risk Assessment</li>
+                <li>Security Awareness</li>
+                <li>Incident Response</li>
+                <li>Vulnerability Management</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Infrastructure</h3>
+            <ul>
+                <li>Windows Server</li>
+                <li>Active Directory</li>
+                <li>Networking</li>
+                <li>Asset Management</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Technical</h3>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
     </div>
+</section>
 
-    <h2>Skills</h2>
-
-    <div class="card">
-        • Cybersecurity<br>
-        • Network Administration<br>
-        • Microsoft 365<br>
-        • Asset Management<br>
-        • Windows Administration<br>
-        • Technical Support
-    </div>
-
+<section id="projects">
     <h2>Projects</h2>
 
-    <div class="card">
-        <b>ICT Asset Stocktake</b><br>
-        University-wide ICT asset verification and inventory project.
+    <div class="grid">
+
+        <div class="card">
+            <h3>ICT Asset Stocktake</h3>
+            <p>
+                Conducted inventory verification and reconciliation
+                of institutional ICT assets.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Computer Upgrade Program</h3>
+            <p>
+                Upgraded and maintained student laboratory computers.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Cybersecurity Awareness</h3>
+            <p>
+                Developed training materials and awareness campaigns.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Helpdesk System Evaluation</h3>
+            <p>
+                Assessed Zendesk and other ticketing solutions.
+            </p>
+        </div>
+
     </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+
+        <div class="card">
+            <h3>ICT Professional</h3>
+            <p>
+                Network administration, endpoint management,
+                cybersecurity controls, user support, and asset management.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Academic Experience</h3>
+            <p>
+                Supporting students and ICT systems
+                in higher education environments.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Cybersecurity Consulting</h3>
+        </div>
+
+        <div class="card">
+            <h3>Network Support</h3>
+        </div>
+
+        <div class="card">
+            <h3>ICT Asset Management</h3>
+        </div>
+
+        <div class="card">
+            <h3>Website Development</h3>
+        </div>
+
+        <div class="card">
+            <h3>Technical Support</h3>
+        </div>
+
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Education & Certifications</h2>
 
     <div class="card">
-        <b>Student Computer Upgrade Program</b><br>
-        Upgrading and maintaining student laboratory PCs.
+        <ul>
+            <li>Master of Cybersecurity</li>
+            <li>Bachelor of Information Technology</li>
+            <li>Future Goals: ISC2 CC, Security+, CCNA, Azure Fundamentals</li>
+        </ul>
     </div>
+</section>
 
-    <div class="card">
-        <b>Cybersecurity Awareness Training</b><br>
-        Security education and awareness activities.
-    </div>
-
+<section id="contact">
     <h2>Contact</h2>
 
     <div class="card">
-        Email: your-email@example.com<br>
-        LinkedIn: linkedin.com/in/yourprofile<br>
-        GitHub: github.com/yourusername
+        <p>Email: your.email@example.com</p>
+        <p>Location: Papua New Guinea</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>GitHub: github.com/yourusername</p>
     </div>
-
-</div>
+</section>
 
 <footer>
-    © 2026 Francis Mission
+    <p>© 2026 Francis Mission. All Rights Reserved.</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
